@@ -632,7 +632,7 @@ class BuildLLVMMonoRepoBase(BuildLLVMBase, BuildLLVMInterface):
 class BuildCheriLLVM(BuildLLVMMonoRepoBase):
     repository = GitRepository(
         "https://github.com/billywithbelly/cheri-llvm-project.git",
-        default_branch="eca63f45d4886ce85ae8abb2ea480540db4585b0"
+        default_branch="billy/wip"
     )
     default_directory_basename = "llvm-project"
     target = "llvm"
